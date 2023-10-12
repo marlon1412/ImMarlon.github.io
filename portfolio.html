@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css"> <!--Connecting to css file-->
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="portfolio_container">
+        <div class="container">
+            <nav>
+              <img src="images/logo.png" class="logo animate__animated animate__fadeInLeft" alt="Logo">
+              
+              <ul id="sidemenu">
+                  <li> <a href="index.html">Home</a></li>
+                  <li> <a href="about.html">About</a></li>
+                  <li> <a href="portfolio.html">Portfolio</a></li>
+                  <li> <a href="contact.html">Contact</a></li>
+                  <i class="fa-solid fa-x" onclick="closemenu()"></i>
+              </ul>
+           
+              <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+        <div id="portfolio">
+            <div class="container animate__animated animate__fadeInUp">
+                <h1 class="title">My Portfolio</h1>
+    
+            </div>
+            <div class="pcss3t pcss3t-effect-scale pcss3t-theme-1 animate__animated animate__fadeInUp">
+                <input type="radio" name="pcss3t" checked  id="tab1"class="tab-content-first">
+                <label for="tab1"><i class="icon-bolt"></i>Video Editing <i class="fa-solid fa-video"></i></label>
+                
+                <input type="radio" name="pcss3t" id="tab2" class="tab-content-2">
+                <label for="tab2"><i class="icon-picture"></i>Codes<i class="fa-solid fa-code"></i></label>
+                
+                <input type="radio" name="pcss3t" id="tab3" class="tab-content-3">
+                <label for="tab3"><i class="icon-cogs"></i>Guitar Covers<i class="fa-solid fa-guitar"></i></label>
+                
+                
+                
+                <ul>
+                    <li class="tab-content tab-content-first typography">
+                        <article class="card">
+                            <img
+                              class="card__background"
+                              src="images/pf_vid_1.png"
+                              alt="Introduce Yourself Pic"
+                              width="1920"
+                              height="2193"
+                              id="myImg" 
+                             
+                            />
+                            <div class="card__content | flow">
+                              <div class="card__content--container | flow">
+                                <h2 class="card__title">Sample 1: Introduce Yourself Video</h2>
+                                <p class="card__description">
+                                  A simple and short Introduce Yourself video. This video is an activity for one of our subjects when I was in my second year of college.
+                                </p>
+                              </div>
+                              <form action="https://drive.google.com/file/d/1alJ86wrLWH0L8JfkDr4v8bnZ9PqDFeUV/view?usp=drive_link" method="get" target="_blank">
+                              <button type="submit"> 
+                                See Sample
+                                <div class="arrow-wrapper">
+                                    <div class="arrow"></div>
+                            
+                                </div>
+                            </button>
+                              </form>
+                            </div>
+                              
+                          </article>
+                          <article class="card">
+                            <img
+                              class="card__background"
+                              src="images/pf_vid_2.png"
+                              alt="Guitar Video"
+                              width="1920"
+                              height="2193"
+                              id="myImg" 
+                             
+                            />
+                            <div class="card__content | flow">
+                              <div class="card__content--container | flow">
+                                <h2 class="card__title">Sample 2: Guitar Video</h2>
+                                <p class="card__description">
+                                Playing guitar is one of my hobbies, so sometimes I take a video of myself playing. 
+                                </p>
+                              </div>
+                              <form action="" method="get" target="_blank">
+                                <button type="submit"> 
+                                  See Sample
+                                  <div class="arrow-wrapper">
+                                      <div class="arrow"></div>
+                              
+                                  </div>
+                              </button>
+                                </form>
+                            </div>
+                          </article>
+                          <article class="card">
+                            <img
+                              class="card__background"
+                              src="images/pf_vid_3.png"
+                              alt="Program"
+                              width="1920"
+                              height="2193"
+                              id="myImg" 
+                             
+                            />
+                            <div class="card__content | flow">
+                              <div class="card__content--container | flow">
+                                <h2 class="card__title">Sample 3: Online Program Technical</h2>
+                                <p class="card__description">
+                                  I worked as technical support at a radio station in Guinobatan. I'm the one who assists when there is a program.
+                                </p>
+                              </div>
+                              <form action="https://fb.watch/nD2B_RosrE/" method="get" target="_blank">
+                                <button type="submit"> 
+                                  See Sample
+                                  <div class="arrow-wrapper">
+                                      <div class="arrow"></div>
+                              
+                                  </div>
+                              </button>
+                                </form>
+                            </div>
+                          </article>
+                          <article class="card">
+                            <img
+                              class="card__background"
+                              src="images/pf_vid_4.png"
+                              alt="Stinger and Intro"
+                              width="1920"
+                              height="2193"
+                              id="myImg" 
+                             
+                            />
+                            <div class="card__content | flow">
+                              <div class="card__content--container | flow">
+                                <h2 class="card__title">Sample 4: Stinger and Intro Video </h2>
+                                <p class="card__description">
+                                  I also created intro and stinger videos for various programs on the radio station.
+                                </p>
+                              </div>
+                              <form action="https://fb.watch/nD2B_RosrE/" method="get" target="_blank">
+                                <button type="submit"> 
+                                  See Sample
+                                  <div class="arrow-wrapper">
+                                      <div class="arrow"></div>
+                              
+                                  </div>
+                              </button>
+                                </form>
+                            </div>
+                          </article>
+    
+                          
+                          
+                    </li>
+                
+                
+                    
+                    <li class="tab-content tab-content-2 typography">
+                      <article class="card">
+                        <img
+                          class="card__background"
+                          src="images/calcu.png"
+                          alt="Shape"
+                          width="1920"
+                          height="2193"
+                          id="myImg"
+                        />
+                      
+                        <div class="card__content | flow">
+                          <div class="card__content--container | flow">
+                            <h2 class="card__title">Code 1: Calculator using Java</h2>
+                            <p class="card__description">
+
+                             A simple calculator that can solve basic computations and Implements MDAS.
+                            
+
+
+                            </p>
+                          </div>
+                         
+                        </div>
+                      </article>
+                       
+                          <article class="card">
+                            <img
+                              class="card__background"
+                              src="images/Shape.png"
+                              alt="Shape"
+                              width="1920"
+                              height="2193"
+                              id="myImg"
+                            />
+                            <div class="card__content | flow">
+                              <div class="card__content--container | flow">
+                                <h2 class="card__title">Code 2: Shape Java Projet</h2>
+                                <p class="card__description">
+                                 A simple Java code that implements Inheritance, Polymorphism, ans Interface.
+                                </p>
+                              </div>
+                              
+                            </div>
+                          </article>
+                          <article class="card">
+                            <img
+                              class="card__background"
+                              src="images/DSA1.png"
+                              alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+                              width="1920"
+                              height="2193"
+                              id="myImg"
+                            />
+                            <div class="card__content | flow">
+                              <div class="card__content--container | flow">
+                                <h2 class="card__title">Code  3: Data Structure and Algorithms</h2>
+                                <p class="card__description">
+                               A compilation of Data Structures and Algoriths in C all in a single file.
+                                </p>
+                              </div>
+                             
+                            </div>
+                          </article>
+                          <article class="card">
+                            <img
+                              class="card__background"
+                              src="images/SalesInvoice.png"
+                              alt="Sales Invoice"
+                              width="1920"
+                              height="2193"
+                              id="myImg"
+                            />
+                            <div class="card__content | flow">
+                              <div class="card__content--container | flow">
+                                <h2 class="card__title">Code 4: Sales Invoice and Inventory Java Project</h2>
+                                <p class="card__description">
+                                  A simple Sales Invoice and Inventory System that can perform basic functions like adding, updating, deleting and view all the items.
+                                </p>
+                              </div>
+                             
+                            </div>
+                          </article>
+                          
+    
+                          
+                       
+                    </li>
+                    
+                    <li class="tab-content tab-content-3 typography">
+                        <article class="card">
+                            <img
+                              class="card__background"
+                              src="images/guitar.jpg"
+                              alt="guitar1"
+                              width="1920"
+                              height="2193"
+                              id="myImg"
+                            />
+                            <div class="card__content | flow">
+                              <div class="card__content--container | flow">
+                                <h2 class="card__title">Sample 1: Kiss the Rain</h2>
+                                <p class="card__description">
+                                  Kiss the Rain is one of the songs that I learned to play on guitar. The original piece was played on piano by Yiruma, while my version was played on guitar in the form of fingerstyle.
+                                </p>
+                              </div>
+                              <form action="https://drive.google.com/file/d/16j408pww-G8EIw3FfQemzJi9gUDNiTvB/view?usp=drive_link" method="get" target="_blank">
+                                <button type="submit"> 
+                                  See Sample
+                                  <div class="arrow-wrapper">
+                                      <div class="arrow"></div>
+                              
+                                  </div>
+                              </button>
+                                </form>
+                            </div>
+                          </article>
+                          <article class="card">
+                            <img
+                              class="card__background"
+                              src="images/guitar2.jpg"
+                              alt="guitar2"
+                              width="1920"
+                              height="2193"
+                              id="myImg"
+                            />
+                            <div class="card__content | flow">
+                              <div class="card__content--container | flow">
+                                <h2 class="card__title">Sample 2: River Flows in You</h2>
+                                <p class="card__description">
+                                  This song is one of my favorites to play since it has a beautiful melody and is popular.
+                                </p>
+                              </div>
+                              <form action="https://drive.google.com/file/d/1IoCclFcCFNYxLdLS7yj9UIfGlAdQTE15/view?usp=drive_link" method="get" target="_blank">
+                                <button type="submit"> 
+                                  See Sample
+                                  <div class="arrow-wrapper">
+                                      <div class="arrow"></div>
+                              
+                                  </div>
+                              </button>
+                                </form>
+                            </div>
+                          </article>
+                          <article class="card">
+                            <img
+                              class="card__background"
+                              src="images/guitar2.jpg"
+                              alt="guitar3"
+                              width="1920"
+                              height="2193"
+                              id="myImg"
+                            />
+                            <div class="card__content | flow">
+                              <div class="card__content--container | flow">
+                                <h2 class="card__title">Sample 3: Can't Help Falling in Love</h2>
+                                <p class="card__description">
+                                  It's also one of my favorites; it's a classic song that almost all of us know. It is perfect to play when you're with your special someone.
+                                </p>
+                              </div>
+                              <form action="" method="get" target="_blank">
+                                <button type="submit"> 
+                                  See Sample
+                                  <div class="arrow-wrapper">
+                                      <div class="arrow"></div>
+                              
+                                  </div>
+                              </button>
+                                </form>
+                            </div>
+                          </article>
+                          <article class="card">
+                            <img
+                              class="card__background"
+                              src="images/guitar.jpg"
+                              alt="guitar4"
+                              width="1920"
+                              height="2193"
+                              id="myImg"
+                            />
+                            <div class="card__content | flow">
+                              <div class="card__content--container | flow">
+                                <h2 class="card__title">Sample 4: Date(Your Name OST)</h2>
+                                <p class="card__description">
+                                  "Date" is one of the OSTs for an anime called Your Name. When I first heard it, I was touched by its melody, so I decided to learn it.
+                                </p>
+                              </div>
+                              <form action="" method="get" target="_blank">
+                                <button type="submit"> 
+                                  See Sample
+                                  <div class="arrow-wrapper">
+                                      <div class="arrow"></div>
+                              
+                                  </div>
+                              </button>
+                                </form>
+                            </div>
+                          </article>
+    
+                          
+                    </li>
+                    
+                    <div id="myModal" class="modal">
+                      <span class="close">&times;</span>
+                      <img class="modal-content" id="img01">
+                      <div id="caption"></div>
+                    </div>
+                    
+                </ul>
+            </div>
+            
+    
+    
+         </div>
+        
+    </div>
+    <div class="custom-shape-divider-bottom-1696691564">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+        </svg>
+    </div>
+    <!--------------------- footer section ----------------------->
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+          
+  
+         
+          <h5 class="connect">Quick Links</h5>
+          <p class="footer-links">
+            
+            
+            <a href="index.html" ><i class="fa-solid fa-house"></i>  Home</a>
+            
+            <a href="about.html"><i class="fa-solid fa-address-card"></i> About</a>
+            
+            <a href="portfolio.html"><i class="fa-regular fa-images"></i> My Portfolio</a>
+          
+            <a href="contact.html"><i class="fa-solid fa-square-phone"></i> Contact</a>
+            
+            
+          </p>
+  
+          
+        </div>
+  
+        <div class="footer-center">
+          <h5 class="connect">Quick Contacts</h5>
+  
+          <div>
+            <i class="fa-solid fa-map-location-dot"></i>
+            <p><span>Purok 4, Brgy. Maguiron</span> Guinobatan, Albay, Philippines</p>
+          </div>
+  
+          <div>
+            <i class="fa fa-phone"></i>
+            <p>+63 910 921 9362</p>
+          </div>
+  
+          <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:marlonarcos.orpiada@bicol-u.edu.ph">Email:marlonarcos.orpiada@bicol-u.edu.ph</a></p>
+          </div>
+  
+        </div>
+  
+        <div class="footer-right">
+        
+         
+  
+          <div class="footer-icons">
+            <h5 class="connect">Connect</h5>
+  
+            <a href="https://web.facebook.com/nolram.adaipro.9" target="_blank"><div class="fb"><i class="fa-brands fa-facebook"></i></div></a>
+            <a href="https://twitter.com/OrpiadaMar34519" target="_blank"><div class="tw"><i class="fa-brands fa-x-twitter"></i></div></a>
+            <a href="#" target="_blank"><div class="linked"><i class="fa-brands fa-linkedin"></i></div></a>
+            <a href="https://github.com/marlon1412/orpiada_marlon.git" target="_blank"><div class="git"><i class="fa-brands fa-github"></i></div></a>
+            <a href="https://www.instagram.com/nlrm_13/" target="_blank"><div class="ig"><i class="fa-brands fa-instagram"></i></div></a>
+          </div>
+  
+        </div>
+        <div class="divi">    
+              <hr>
+          <p class="footer--name">All rights reserved 2023 © Copyright</p>
+  </div>
+  
+      </footer>
+       
+      <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+          sidemenu.style.right = "0";
+        }
+        function closemenu(){
+          sidemenu.style.right = "-200px";
+        }
+      </script>
+
+      
+      <script>
+        // create references to the modal...
+var modal = document.getElementById('myModal');
+// to all images -- note I'm using a class!
+var images = document.getElementsByClassName('card__background');
+// the image in the modal
+var modalImg = document.getElementById("img01");
+// and the caption in the modal
+var captionText = document.getElementById("caption");
+
+// Go through all of the images with our custom class
+for (var i = 0; i < images.length; i++) {
+  var img = images[i];
+  // and attach our click listener for this image.
+  img.onclick = function(evt) {
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  }
+}
+
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+      </script>
+
+    
+      
+      
+    
+    
+</body>
+</html>

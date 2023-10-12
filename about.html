@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css"> <!--Connecting to css file-->
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    <div id="about_container">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo animate__animated animate__fadeInLeft" alt="Logo">
+                
+                <ul id="sidemenu">
+                  <li> <a href="index.html">Home</a></li>
+                  <li> <a href="about.html">About</a></li>
+                  <li> <a href="portfolio.html">Portfolio</a></li>
+                  <li> <a href="contact.html">Contact</a></li>
+                  <i class="fa-solid fa-x" onclick="closemenu()"></i>
+              </ul>
+         
+              <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img class="about_pic" src="images/about_photo.jpg" alt="aut PIc">
+                        
+                    </div>
+                    <div class="about-col-2 animate__animated animate__fadeInUp">
+                        <h1 class="title">About Me</h1>
+                        <p><br>Hello, I'm Marlon Orpiada<br><br>
+    
+                            
+                            Aspiring IT Professional and Budding Web Developer
+                            <br>
+                            Welcome to my corner of the web! <br><br>I'm Marlon Opriada, a third-year Information Technology student at Bicol Univesiy,
+                            I'm on a journey to explore the endless possibilities of the digital world.<br>
+                            <br>My fascination with technology and its ever-evolving landscape led me to dive into the world of web development.                        
+                            Throughout my academic journey, I've had the opportunity to explore various aspects of IT, from programming and networking to cybersecurity and data analysis.
+                           <br> <br>However, I've only recently started my web building journey and I'm excited to share my progress with you.</p>
+
+                          
+                    
+                </div>
+    
+            </div>
+            <div class="tab-titles animate__animated animate__fadeInUp">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills/Interests</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+           </div>
+          
+           <div class="tab-contents active-tab animate__animated animate__fadeInUp" id="skills">
+            <table>
+              <tr>
+              <th>
+                <span>UI/UX Web Designing</span>
+    
+              </th>
+              <th>
+                <span>Video Editing</span>
+    
+              </th>
+            </tr>
+            <tr>
+              <th>
+                <span>Online Games</span>
+    
+              </th>
+              <th>
+                <span>Listening to Music</span>
+    
+              </th>
+            </tr>
+            <tr>
+              <th>
+                <span>Playing Guitar</span>
+    
+              </th>
+              <th>
+                <span>Back-end Programming</span>
+    
+              </th>
+            </tr>
+
+            
+              
+            </table>
+           </div>
+      
+            
+            <div class="tab-contents animate__animated animate__fadeInUp" id="education">
+              <ul>
+                <li>
+                  <span>2021-Present </span><br>
+                  College<br>
+                  Bicol University College of Science<br>
+                  Bachelor of Science in Information Technology
+                </li>
+                <li>
+                  <span>2018-2021 </span><br>
+                  Senior High School<br>
+                  Malipo National High School<br>
+                  Computer System Servicing
+                </li>
+                <li>
+                  <span>2014-2018 </span><br>
+                  Junior High School<br>
+                  Malipo National High School<br>
+                
+                </li>
+                <li>
+                  <span>2009- 2014</span><br>
+                  Elementary School<br>
+                  Dona Irene Elementary School<br>
+                
+                </li>
+                
+              </ul>
+
+             </div>
+             <div class="tab-contents animate__animated animate__fadeInUp" id="experience">
+              <ul>
+                
+                <li>
+                  <span>2022-2023</span><br>
+                  Technical Staff at Kadunong Broadcasting Services
+      
+                </li>
+                <li>
+                  <span>2020</span><br>
+                  On-Job-Traning at SmartFix Legazpi
+                </li>
+                <li>
+                  <span>2020</span><br>
+                  Passed the NCII assessment for Computer System Servicing
+                </li>
+                
+              </ul>
+             </div>
+           
+    </div>
+          
+        </div>
+    </div>
+    <div class="custom-shape-divider-bottom-1696691564">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+        </svg>
+    </div>
+    <!--------------------- footer section ----------------------->
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+          
+  
+         
+          <h5 class="connect">Quick Links</h5>
+          <p class="footer-links">
+            
+            
+            <a href="index.html" ><i class="fa-solid fa-house"></i>  Home</a>
+            
+            <a href="about.html"><i class="fa-solid fa-address-card"></i> About</a>
+            
+            <a href="portfolio.html"><i class="fa-regular fa-images"></i> My Portfolio</a>
+          
+            <a href="contact.html"><i class="fa-solid fa-square-phone"></i> Contact</a>
+            
+            
+          </p>
+  
+          
+        </div>
+  
+        <div class="footer-center">
+          <h5 class="connect">Quick Contacts</h5>
+  
+          <div>
+            <i class="fa-solid fa-map-location-dot"></i>
+            <p><span>Purok 4, Brgy. Maguiron</span> Guinobatan, Albay, Philippines</p>
+          </div>
+  
+          <div>
+            <i class="fa fa-phone"></i>
+            <p>+63 910 921 9362</p>
+          </div>
+  
+          <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:marlonarcos.orpiada@bicol-u.edu.ph">Email:marlonarcos.orpiada@bicol-u.edu.ph</a></p>
+          </div>
+  
+        </div>
+  
+        <div class="footer-right">
+        
+         
+  
+          <div class="footer-icons">
+            <h5 class="connect">Connect</h5>
+  
+            <a href="https://web.facebook.com/nolram.adaipro.9 "target="_blank"><div class="fb"><i class="fa-brands fa-facebook"></i></div></a>
+            <a href="https://twitter.com/OrpiadaMar34519" target="_blank"><div class="tw"><i class="fa-brands fa-x-twitter"></i></div></a>
+            <a href="#" target="_blank"><div class="linked"><i class="fa-brands fa-linkedin"></i></div></a>
+            <a href="https://github.com/marlon1412/orpiada_marlon.git" target="_blank"><div class="git"><i class="fa-brands fa-github"></i></div></a>
+            <a href="https://www.instagram.com/nlrm_13/" target="_blank"><div class="ig"><i class="fa-brands fa-instagram"></i></div></a>
+          </div>
+  
+        </div>
+        <div class="divi">    
+              <hr>
+          <p class="footer--name">All rights reserved 2023 © Copyright</p>
+  </div>
+  
+      </footer>
+       
+      <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+          sidemenu.style.right = "0";
+        }
+        function closemenu(){
+          sidemenu.style.right = "-200px";
+        }
+      </script>
+
+      <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+          for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+          }
+          
+          for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+          }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabname).classList.add("active-tab");
+        
+      }
+
+      </script>
+    
+</body>
+</html>
